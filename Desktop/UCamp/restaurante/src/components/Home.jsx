@@ -28,18 +28,18 @@ export default function Home () {
                         <div className="botonMenu"><p className="p-catalogo3"><a className="nombre" href="#">Ver más</a></p></div></section>
                     </div>
                     <div class="item div-catalogo">
-                        <a href="src\components\Menu.png"><img class="img1-catalogo" src={ComidaCena} alt=""></img></a>
+                        <a href="#"><img class="img1-catalogo" src={ComidaCena} alt=""></img></a>
                         <h3 class="h3-catalogo2">Comida y Cena</h3>
                         <div><p className="p-catalogo2">Preparamos los mejores platillos mexicanos con muy buenos y frescos ingredientes, según nuestras recetas tradicionales para deleitarte.</p></div>
                         <section className="container2-catalogo">
                         <div className="botonMenu"><p className="p-catalogo3"><a className="nombre" href="#">Ver más</a></p></div></section>
                     </div>
                     <div class="item div-catalogo">
-                        <a href="src\components\Menu.png"><img className="img1-catalogo" src={Bebidas} alt=""></img></a>
+                        <a href="#"><img className="img1-catalogo" src={Bebidas} alt=""></img></a>
                         <h3 class="h3-catalogo2">Bebidas</h3>
                         <div><p className="p-catalogo2">Aguas frescas hechas con fruta de temporada; amplia selección de destilados, cervezas, coctelería, vinos y refrescos para acompañar tus alimentos.</p></div>
                         <section className="container2-catalogo">
-                        <div className="botonMenu"><p className="p-catalogo3"><a className="nombre" href="src\components\Menu.png">Ver más</a></p></div></section>
+                        <div className="botonMenu"><p className="p-catalogo3"><a className="nombre" href="#">Ver más</a></p></div></section>
                     </div>
                 </div>
             </div>

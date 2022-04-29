@@ -86,7 +86,7 @@ body {
     border-image: none;
 }
 
-h1 {
+.tituloHome {
     padding-bottom: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
@@ -127,10 +127,12 @@ h1 {
 
 .p-jumbo {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: large;
     color: whitesmoke;
     text-align: justify;
     width: 700px;
+    line-height: 2em;
+    padding-top: 10px;
 }
 
 .left {
@@ -182,7 +184,6 @@ h1 {
     height: auto;
     gap: 10px 20px;
     margin-top: 10px;
-
 }
 
 .container-catalogo:nth-child(1) {
@@ -277,11 +278,70 @@ h1 {
 }
 /* FIN CONFIRGURACIÓN CATALOGO*/
 
+.historia {
+    padding-top: 120px;
+    justify-content: center;
+    align-content: center;
+    background-image: url("./PintxosPicabira2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulosHist {
+    justify-content: center;
+    text-align: center;
+}
+
+.h1Historia {
+    color: #eb8510;
+    padding-bottom: 80px;
+    letter-spacing: 0.5em;
+
+}
+
+.h2Historia {
+    font-family: serif;
+    font-style: italic;
+    letter-spacing: 00.20em;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: rgba(33, 64, 205, 0.998);
+}
+
+.parrafos {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.historiaP1 {
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 100px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+.historiaP3 {
+    width: 400px;
+    padding-right: 100px;
+    padding-left: 70px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
 .main {
     width: 100vw;
 }
 
-.cursos,
+.cuerpo {
+    justify-content: center;
+    align-content: center;
+}
+
+.menus,
 .proxEventos {
     display: flex;
     justify-content: center;
@@ -290,7 +350,7 @@ h1 {
     align-items: center;
 }
 
-.cursos1,
+.menus1,
 .liEventos,
 .proxEventos,
 .textoContacto {
@@ -320,12 +380,6 @@ h1 {
     height: 300px;
     width: 520px;
     align-items: center;
-}
-
-h1 {
-    font-size: 1.8vw;
-    align-items: center;
-    padding-top: 20px;
 }
 
 .caja {
@@ -390,14 +444,10 @@ h1 {
     padding: 0px;
 }
 
-h2{
+.h2Reserva{
     text-align: center;
     color: rgba(0, 0, 139, 0.562);
 }
-
-/* .cuerpo{
-    border: 2px solid red;
-} */
 
 .captura{
     display: flex;
@@ -499,8 +549,6 @@ li{
     right: 0;
 }
 
-
-
 .p-footer {
     font-family: sans-serif;
     text-align: center;
@@ -510,3 +558,341 @@ li{
     font-size: small;
 }
 /* FIN CONFIGURACIÓN FOOTER */
+
+/***************************************************************************************************************************************/
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 0px;
+        font-family: sans-serif;
+        padding: 20px 0px 0;
+        width: 100%;
+    }
+
+    .header {
+        margin: 0 0px;
+        max-width: 100%
+    }
+
+    .header-rigth {
+        padding-right: 10px;
+    }
+    
+    .navMenu {
+        padding-left: 4px;
+    }
+    
+    .navMenu a {
+        padding: 6px;
+    }
+    
+    .LogoPicabira {
+        padding-left: 10px;
+        width: 30px;
+    }
+    
+    .navEnlace {
+        font-size: 12px;
+    }
+
+ /****************************** JUMBOTRON *******************************/
+
+ .tituloHome {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size: 3vw;
+    color: whitesmoke;
+    text-align: justify;
+    width: fit-content;
+}
+
+.imgMain {
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.jumbo {
+    flex-direction: column;
+    width: auto;
+}
+
+.img-1 {
+    width: auto;
+    border-image: none;
+}
+
+h1 {
+    font-size: 5vw;
+    padding-top: 15px;
+    padding-right: 10px;
+    width: fit-content;
+}
+
+.left {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.h6-jumbo {
+    display: inline-block;
+    padding: 8px 8px;
+    border-radius: 15px;
+    font-size: 2vw;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.p-jumbo {
+    font-size: 2.2vw;
+    color: whitesmoke;
+    text-align: justify;
+    width: fit-content;
+    padding-right: 5px;
+    padding-bottom: 30px;
+}
+
+/******************************** CATÁLOGO ********************************/
+.catalogo {
+    background-color: whitesmoke;
+}
+
+.nombre {
+    font-size: smaller;
+}
+
+.p-catalogo3 {
+    margin-top: 9px;
+    margin-left: 5px;
+    font-size: 2.5vw;
+    padding: 10px;
+    padding-right: 5px;
+}
+
+.container-catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-catalogo:nth-child(2n + 1) {
+    margin-right: 5px;
+  }
+
+.item {
+    width: 80%;
+    height: auto;
+}
+
+.div-catalogo {
+    width: 60%;
+}
+
+.h3-catalogo {
+    padding-top: 30px;
+    font-size: 2vw;
+    padding-bottom: 0px;
+}
+
+.h2-catalogo {
+    padding-top: 5px;
+    font-size: 4vw;
+    padding-bottom: 5px;
+}
+
+.p-catalogo {
+    padding-top: 2px;
+    font-size: 3vw;
+    padding-bottom: 0px;
+}
+
+.img1-catalogo {
+    width: 100%;
+}
+
+.h4-catalogo2 {
+    font-size: 2.5vw;
+}
+
+.h3-catalogo2 {
+    font-size: 4vw;
+    padding-bottom: 0px;
+}
+
+.p-catalogo2 {
+    padding-top: 0px;
+    font-size: 3vw;
+}
+
+.botonMenu {
+    padding-bottom: 5px;
+}
+
+
+
+/****************************** FOOTER ***********************************/
+.section-footer {
+    padding-top: 10px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+.linea {
+    height: 0.15px;
+    width: 70%;
+    margin: auto;
+    border-color: rgba(206, 203, 203, 0.329);
+  }
+
+  .div-redes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+  }
+
+  .div-redes a{
+      padding-top: 0px;
+  }
+
+  .img-footer {
+    width: 3vw;
+  }
+
+  .div-secciones {
+    max-width: max-content;
+    padding: 5px 20px 5px 5px;
+    font-size: 2vw;
+  }
+
+  li {
+    padding-top: 10px;
+  }
+
+  .p-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2vw;
+  }
+
+/* *************** Reservaciones *************** */
+
+.forma{
+    width: 250px;
+}
+.h2Reserva {
+    font-size: 4vw;
+}
+
+.captura{
+    width: 200px;
+}
+
+.etiquetas{
+    font-size: 3vw;
+    padding-top: 25px;
+    font-weight: bold;
+    color: grey;
+}
+
+.campos{
+    font-size: small;
+}
+
+.botones{
+    padding-top: 25px;
+    width: 150px;
+}
+
+.botonEnviar{
+    font-size: small;
+    padding: 2px 15px;
+}
+
+.anclaRegresar{
+    font-size: small;
+    padding: 3.55px 12px;
+}
+
+.mensaje{
+    padding-top: 25px;
+    color: red;
+    font-size: small;
+    font-weight: bold;
+    height: 20px;
+    text-align: center;
+    margin-bottom: 30px;    
+}
+
+/*************** Sucursales ***************/
+
+.lista-sucursales{
+    width: 200px;  
+}
+
+li{
+    font-size: 3vw;
+    width: 100%;
+}
+
+/**************** Menu **********************/
+
+.caja2 {
+    font-size: 2vw;
+    font-weight: 200;
+    color: #4b4848;
+    padding: 10px;
+    width: 300px;
+}
+
+/**************** Historia **********************/
+
+.historia {
+    padding-top: 0px;
+}
+
+.h1Historia {
+    color: #eb8510;
+    padding-bottom: 20px;
+    letter-spacing: 0.5em;
+
+}
+
+.h2Historia {
+    font-family: serif;
+    font-style: italic;
+    letter-spacing: 00.20em;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: rgba(33, 64, 205, 0.998);
+}
+
+.parrafos {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.historiaP1 {
+    width: 200px;
+    padding-right: 50px;
+    padding-left: 60px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+.historiaP3 {
+    width: 200px;
+    padding-right: 100px;
+    padding-left: 40px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+}

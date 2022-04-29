@@ -171,7 +171,7 @@ const Reservaciones = () =>
     return(
         <Fragment>
             <div className="cuerpo">
-                <h2>Reservaciones</h2>
+                <h2 className='h2Reserva'>Reservaciones</h2>
                 <form className="forma">   
                     <div className="captura">                  
                         <label className="etiquetas">* Fecha y Hora </label>

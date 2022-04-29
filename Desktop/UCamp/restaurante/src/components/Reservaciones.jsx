@@ -1,4 +1,5 @@
 import db from '../firebase';
+import { Link } from 'react-router-dom'
 import React, { useState, Fragment, useEffect } from 'react';
 import { collection, getDocs, addDoc} from "firebase/firestore/lite";
 
@@ -213,7 +214,7 @@ const Reservaciones = () =>
                             <button className="botonEnviar" type="button" onClick={ ValidaFormulario }>Enviar</button>
                         </div>
                         <div>
-                            <a className="anclaRegresar" href='src\Home.jsx'>Regresar</a>
+                            <Link to ="/" className="anclaRegresar">Regresar</Link>
                         </div>
                     </div>
                 </form>

@@ -3,7 +3,7 @@ import React from 'react';
 function Sucursales() {    
     function abrir_Popup(url) 
     {
-        const configuracion_ventana = "menubar=no, scrollbars=no, left=400, top=420, toolbar=no, location=no, status=no, width=850, height=420";
+        const configuracion_ventana = "menubar=no, scrollbars=no, left=360, top=420, toolbar=no, location=no, status=no, width=950, height=400";
         window.open(url, "Mapa Ubicación", configuracion_ventana);
     }
     const url1 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1882.8586449662805!2d-99.12949464195208!3d19.294656696740702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01a08ab020fd%3A0x70fd8b2ed6f90295!2sGran%20Terraza%20Coapa!5e0!3m2!1ses!2smx!4v1650478578077!5m2!1ses!2smx";

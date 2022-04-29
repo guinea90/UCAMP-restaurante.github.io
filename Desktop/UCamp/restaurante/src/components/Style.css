@@ -314,20 +314,17 @@ body {
 .parrafos {
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
     text-align: justify;
 }
 
 .historiaP1 {
     width: 400px;
-    padding-right: 50px;
-    padding-left: 100px;
     letter-spacing: 0.1em;
     line-height: 2em;
 }
 .historiaP3 {
     width: 400px;
-    padding-right: 100px;
-    padding-left: 70px;
     letter-spacing: 0.1em;
     line-height: 2em;
 }
@@ -339,15 +336,25 @@ body {
 .cuerpo {
     justify-content: center;
     align-content: center;
-}
-
-.menus,
-.proxEventos {
-    display: flex;
-    justify-content: center;
+    background-image: url("./PintxosPicabira2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    background-image: url("./PintxosPicabira2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
 }
 
 .menus1,
@@ -508,6 +515,12 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    background-image: url("./PintxosPicabira2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 .lista-sucursales{
@@ -570,7 +583,7 @@ li{
 
     .header {
         margin: 0 0px;
-        max-width: 100%
+        max-width: 100%;
     }
 
     .header-rigth {
@@ -590,13 +603,12 @@ li{
         width: 30px;
     }
     
-    .navEnlace {
-        font-size: 12px;
-    }
 
+
+    
  /****************************** JUMBOTRON *******************************/
 
- .tituloHome {
+.tituloHome {
     padding-top: 0px;
     padding-bottom: 5px;
     font-size: 3vw;
@@ -854,11 +866,25 @@ li{
 
 /**************** Historia **********************/
 
+.titulosHist {
+    justify-content: center;
+    text-align: center;
+}
+
 .historia {
-    padding-top: 0px;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url("./PintxosPicabira2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
 }
 
 .h1Historia {
+    margin: auto;
     color: #eb8510;
     padding-bottom: 20px;
     letter-spacing: 0.5em;
@@ -866,9 +892,10 @@ li{
 }
 
 .h2Historia {
+    font-size: 3vw;
     font-family: serif;
     font-style: italic;
-    letter-spacing: 00.20em;
+    letter-spacing: 0.20em;
     padding-top: 0px;
     padding-bottom: 10px;
     color: rgba(33, 64, 205, 0.998);
@@ -876,23 +903,41 @@ li{
 
 .parrafos {
     display: flex;
-    justify-content: center;
-    text-align: justify;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .historiaP1 {
     width: 200px;
-    padding-right: 50px;
-    padding-left: 60px;
+    padding-bottom: 20px;
     letter-spacing: 0.1em;
     line-height: 2em;
+    font-size: 2vw;
 }
 .historiaP3 {
     width: 200px;
-    padding-right: 100px;
-    padding-left: 40px;
+    padding-bottom: 100px;
     letter-spacing: 0.1em;
     line-height: 2em;
+    font-size: 2vw;
 }
 
+.sucursales {
+    background-image: url("./PintxosPicabira2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+}
+
+/********************************************************************************************************************/
+@media screen and (max-width: 500px) {
+
+    .navEnlace {
+        font-size: 1.5vw;
+    }
 }
